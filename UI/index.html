@@ -1,0 +1,107 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fantastic Ride</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./styling/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./styling/responsive.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Satisfy" rel="stylesheet">
+    <link rel="icon" href="./image/favicon.ico">
+
+</head>
+<header>
+    <a href="#" class="header-brand">
+        <span>Fantastic</span>Ride</a>
+</header>
+<main>
+    <section class="index-banner">
+        <p>
+            Welcome to FantasticRIde! A
+            <strong>Carpooling</strong> app
+            <br /> that provides drivers with the ability to create ride offers and passengers to join in.
+        </p>
+        <p>
+            <strong>Sign Up</strong> to proceed</p>
+        <img src="image/car.png" alt="FantasticRIde!">
+        <!--vertical line hidden on small&meduim display-->
+        <div class="vl"></div>
+    </section>
+    <section class="container-1">
+
+        <div class="form">
+
+            <div class="option-button-container">
+                <p class="message">Do you own a car</p>
+                <button id="Btn1">Nope</button>
+                <button id="Btn2">Yes</button>
+
+            </div>
+
+            <form action="" class="register-form">
+                <input type="text" placeholder="Username">
+                <input type="text" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <input type="password" placeholder="Confirm Password">
+                <button>Sign up</button>
+            </form>
+
+
+            <form action="" class="driver-form">
+                <input type="text" placeholder="Username">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Car Model">
+                <input type="text" placeholder="Car RegNo">
+                <input type="password" placeholder="Password">
+                <input type="password" placeholder="Confirm Password">
+                <button formaction="offers_driver.html">Register</button>
+            </form>
+
+            <form action="" class="login-form">
+                <input type="text" placeholder="Username">
+                <input type="password" placeholder="Password">
+                <button formaction="offers_user.html">Login</button>
+                <!-- temporary link to ride offer pages -->
+                <p class="message">Not Registered?
+                    <a href="#">Signup</a>
+                </p>
+            </form>
+
+
+        </div>
+    </section>
+
+</main>
+<script src="main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script>
+                        $('.message a').click(function(){
+                        $('.driver-form').hide();
+                        $('.register-form').hide();
+                        $('.login-form').hide();
+                        $('.option-button-container').animate({height:"toggle",opacity:"toggle"},"slow");
+                        });
+
+                        $('.option-button-container #Btn1').click(function(){
+                            $('.driver-form').hide();
+                            $('.register-form').hide();
+                            $('.option-button-container').hide();
+                            $('.login-form').hide();
+                            $('.register-form').animate({height:"toggle",opacity:"toggle"},"slow");
+                            });
+
+                            $('.option-button-container #Btn2').click(function(){
+                                $('.driver-form').hide();
+                                $('.register-form').hide();
+                                $('.option-button-container').hide();
+                                $('.login-form').hide();
+                                $('.driver-form').animate({height:"toggle",opacity:"toggle"},"slow");
+                                });
+                    </script>
+<body>
+
+</body>
+
+</html>

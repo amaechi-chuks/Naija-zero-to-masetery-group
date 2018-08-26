@@ -1,0 +1,62 @@
+
+@media only screen and (max-width:800px){
+    .form button#Btn1{
+        width: 160px;
+        margin:auto;
+    }
+    .form button#Btn2{
+        width: 160px;
+        margin-top: 20px;
+    }
+   
+}
+
+@media only screen and (min-width:1000px){
+    header .header-brand{
+        font-size: 40px;
+        position: absolute;
+        left: 10%;
+        top: 4.5%;
+    } 
+}
+@media only screen and (min-width:1000px){
+    .form{
+        position: absolute;
+        left: 50%;
+        top:20%;
+    }
+    .index-banner{
+        width: 30%;
+        position: absolute;
+        left: 10%;
+        top: 19%;
+        display: block;
+    }
+    .index-banner img{
+        display: block;
+        padding-top: 100px;
+    }
+    .vl { /*vertical line*/
+        display: block;
+    }
+    
+}
+@media only screen and (min-width:1000px){
+    header .header-brand{
+        font-size: 40px;
+        position: absolute;
+        left: 10%;
+        top: 4.5%;
+    } 
+    nav ul{
+        position: absolute;
+        left: 55%;
+        top: 0%;
+        text-transform: capitalize;
+    }
+    
+    nav ul li{
+        padding: 50px 30px 10px 30px; 
+    }
+
+}
