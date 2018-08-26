@@ -1,0 +1,407 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body{
+    font-family: Raleway;
+}
+header{
+    background-color: #fff;
+    width: 100%;
+    height: 90px;
+    box-shadow: 0 2px 20px #f2f2f2;
+}
+header .header-brand{
+    color:#1c7f7f;
+    font-size: 170%;
+    font-weight:800;
+    font-family: Satisfy;
+    display: block;
+    text-align: center;
+    padding: 10px 0; 
+}
+header .header-brand span{
+    color: #d32f2f;
+}
+
+
+
+.index-banner{
+    height: calc(100vh-100px);
+    text-align: justify;
+    color:#111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+    width: 100%;
+    display: none;
+}
+.index-banner p{
+    width:calc(100%-20px);
+    margin : 10px;
+    line-height: 1.8;
+ }
+ .index-banner img{
+     display: none;
+ }
+.container-1{
+    background-color: #fff;
+    margin : 10px;
+    width:calc(100%-20px);
+}
+.vl { /*vertical line*/
+    border-left: 1px solid #1c7f7f;
+    height: 100%;
+    position: absolute;
+    left: 115%;
+    top: 5%;
+    display: none;
+}
+
+/* ----------------------------------forms----------------------- */
+.form{
+    background:#f2f2f2;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0px 3px 10px #cecdcd;
+}
+
+.form input{
+    font-family: Raleway;
+    outline:1;
+    background: #fff; 
+    width: 100%;
+    border: 0;
+    margin: 0 0 18px;
+    padding:15px ;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.details-form{
+    background:#f2f2f2;
+    color: #164e4e;
+    max-width: 360px;
+    margin: auto ;
+    padding: 20px;
+    text-align: ltr;
+    box-shadow: 0px 3px 10px #cecdcd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.details-form .content{
+    margin-top:20px; 
+}
+.details-form button{
+    width: 37%;
+    margin-right: 40px;
+    margin-top: 5px;
+}
+.details-form p {
+    padding: 5px;
+
+}
+.details-form p strong{
+    margin-right: 2px;
+}
+.details-form center #profpic{
+    margin-top:10px;
+}
+/* -----------buttons---------- */
+button{
+    background: #1c7f7f;
+    color: #fff;
+    padding:10px;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+}
+button:hover{
+    background:#1A7770;
+}
+
+.form button{
+    font-family: Raleway;
+    width: 100%;
+    padding:15px ;
+    font-size: 14px;
+    
+}
+.form button#Btn1{
+    width: 160px;
+    margin-right: 40px;
+}
+.form button#Btn2{
+    width: 150px;
+}
+
+/* ------- endof buttons-------- */
+.form .message{
+    margin: 15px;
+    font-family: Raleway;
+    font-size: 12px;
+}
+.form .message a{
+    text-decoration: none;
+    color:#1A7770;
+    font-size: 15px;
+}
+.option-button-container{
+    display: none;
+}
+.form .register-form{
+    display: none;
+}
+.form .driver-form{
+    display: none;
+}
+
+/* -------------------------end of forms----------------- */
+
+
+body {
+    line-height:1;
+}
+/* -------------------------tables------------------------- */
+#ResponsiveTable{
+    width: 70%;
+    margin: 50px 50px 0px 150px;
+    box-shadow: 0px 3px 10px #cecdcd;
+    color: #1A7770;
+}
+#TableTitle{
+    position:absolute; 
+    left:75%; 
+    top:19%; 
+    color:rgb(56, 56, 56,0.5);
+}
+#HeadRow{
+    color: rgb(22, 88, 83);
+    font-weight: 500;
+    background-color:#f3f3f3;
+    font-family:Raleway;
+
+}
+tr:nth-of-type(odd){
+    background-color: #f2f2f2;
+}
+#ResponsiveTable td{
+    padding: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#ResponsiveTable td button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* ---------------side bar------------------------ */
+#sidebar{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+    background: #222427;
+    height: 100%;
+    width: 200px;
+    left: -200px;
+    transition: all 500ms linear;
+}
+#sidebar.active{
+    left: 0px;
+}
+#sidebar ul li{
+    color: #f2f2f2;
+    padding: 15px 10px;
+    border-bottom: 1px solid #33363a; 
+    text-decoration: none;
+}
+#sidebar ul li a{
+    color:#f2f2f2;
+}
+#sidebar ul li:hover{
+    background: #111;
+}
+#sidebar .toggle-button{
+    position: absolute;
+    left: 230px;
+    top: 20px;
+    cursor: pointer;
+}
+#sidebar .toggle-button span{
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: #1c7f7f;
+    margin: 3px 0px;
+    
+}
+
+/* ---------------endof side bar------------------------ */
+
+/* ---------------profile----- */
+
+.picbase{
+    display: block;
+    height: 25%;
+    background-color:#cecdcd;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+}
+.contentbase{
+    margin-top: 20px;
+    margin-bottom:0px;
+}
+#profpic{
+    border-radius: 100%;
+    box-shadow: 1px 2px 10px rgb(41, 41, 41); 
+    margin-top: 35px;
+    
+}
+.profiledetails{
+    color: teal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+}
+.profiledetails ul{
+    list-style: none;
+}
+.profiledetails ul li{
+    display: inline-block;
+    padding: 10px 40px;
+}
+.profiledetails .details ul li{
+    padding: 0px 40px;
+    margin-right: 40px;
+    font-size: 15px;
+}
+.profiledetails .details ul li .upgrade-click:hover,:focus{
+    cursor: pointer;
+}
+
+
+
+/* -----------------------end of profile--------------------- */
+
+
+/* ------------------------- Modal -------------- */
+.modal{
+    display:none;
+    position: fixed;
+    z-index: 1; /*order of elements*/
+    left: 0;
+    top:0;
+    width:100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0,0.4);
+}
+ 
+.modal-content{
+    background-color: #f3f3f3;
+    position: relative;
+    margin: 0 auto;
+    top: 20%;
+    width: 32%;
+    box-shadow: 0px 2px 10px rgb(56, 56, 56,0.5);
+    border-radius: 4px;
+    animation-name:modalopen;
+    animation-duration: 1s; 
+}
+
+.modal-header{
+    color:#1c7f7f;
+    padding:20px;
+    box-shadow: 0px 2px 10px #111;
+
+}
+.modal-body{
+    background: #f2f2f2;
+    padding:10px;
+}
+.modal-footer{
+    color:#1c7f7f;
+    border-top: 1px solid rgb(56, 56, 56,0.5);
+    padding:8px;
+    font-family:satisfy;
+    font-size:10px;
+
+}
+.modal-footer span{
+    color:#d32f2f;
+}
+
+.closeBtn{
+    color: #1c7f7f;
+    float: right;
+    font-size: 30px;
+}
+.closeBtn:hover.closeBtn:focus{
+    color:rgb(16, 68, 64);
+    cursor: pointer;
+    text-decoration: none;
+}
+/* -----modal ride_offer_form */
+ .modal-body center .ride-offer-form input{
+     margin:5px 0px;
+     width: 70%;
+     padding: 15px;
+     outline: 1;
+     border: 0;
+   
+}
+.modal-body center .ride-offer-form button{
+    margin:5px 0px;
+    width: 78%;
+    padding: 15px;
+}
+/* -----modal ride_offer_form */
+nav ul{
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    text-transform: capitalize;
+}
+
+nav ul li{
+    text-align: left;
+    display: inline-block;
+    padding: 10px 12px;
+}
+
+nav ul li a{
+    color:#1c7f7f;
+    font-size: 16px;
+    font-weight:500;
+}
+nav ul li a:hover{
+    box-shadow: 0 2px 0px #f2f2f2;
+    padding-bottom: 5px;  
+}
+.active{
+    box-shadow: 0 2px 0px #f2f2f2;
+    padding-bottom: 5px;
+}
+/* --------------------end of navbar----------------------- */
+
+
+nav ul {
+    list-style:none;
+}
+a {
+    margin:0;
+    padding:0;
+    text-decoration:none;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/*
+/* --------------------------endof modal------------------- */

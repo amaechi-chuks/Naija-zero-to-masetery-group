@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/responsive.css" />
+    <link rel="icon" href="img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Satisfy" rel="stylesheet">
+    <title>Fantastic Ride - View</title>
+</head>
+
+<body>
+    <header>
+    <a href="offers_driver.html" class="header-brand"><span>Fantastic</span>Ride</a>
+        <nav>
+            <ul>
+                <li><a href="offers_driver.html">Ride offers</a></li>
+                <li><a href="#"></a></li>
+                <li><a class="active" href="driver.html">Profile</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+<div id="sidebar">
+    <div class="toggle-button"onclick="toggleSidebar()">
+    <span></span>
+    <span></span>
+    <span></span>
+    </div>
+    <ul>
+        <li><a href="rides_response_driver.html">Notifications</a></li>
+        <li><a href="offers_driver.html">Availiable Rides</a></li>
+        <li><a href="requests.html">Requests</a></li>
+        <li><a href="rides_given.html">Rides Given</a></li>
+        <li><a href="rides_taken_driver.html">Rides taken</a></li>
+        <li><a href="index.html">Logout</a></li>
+        <li id="modalBtn" style="cursor:pointer;">Offer a ride</li>
+    </ul>
+    <!-- Modal form for creating ride offer -->
+    <div id="simpleModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header"><span class="closeBtn" style="cursor:pointer;">&times;</span>
+                    <h3>Create Ride Offer</h3>
+                </div>
+
+                <div class="modal-body">
+                    <center>
+                            <form action="" class="ride-offer-form">
+                                    <input type="text" placeholder="Destination"><br>
+                                    <input type="text" placeholder="My Loaction"><br>
+                                    <input type="text" placeholder="Departure Time"><br>
+                                    <button >Create</button>
+                            </form> 
+                    </center>
+                         
+                </div>
+
+                <div class="modal-footer">
+                        <center><span>Ride</span>MyWay</center>
+                    </div>
+                
+            </div>
+        </div>
+    <!-- endof modal form-->
+</div>
+    <main>
+        <div class="details-form">        
+                <form action="" >
+                        <center>
+                            <img src="img/profile.jpg" width=150 id=profpic alt="">
+                        </center>
+                        <div class="content">
+                                <p><strong>Driver :</strong>Uchendu Okoro</p>       
+                                <p><strong>From :</strong>Ikeji</p>
+                                <p><strong>To :</strong>Lekki Phase1</p>
+                                <p><strong>Time :</strong>9:30am</p>
+                                <p><strong>Car :</strong>Audi</p>
+                                <p><strong>Car NoPlate :</strong>MUS-991-AF</p>
+                                <p><strong>Contact :</strong>1 Agingbi</p><br>
+                                <button>Call</button>07068566559<button>Join Ride</button> 
+                        </div>
+                        
+                </form>
+            </div>
+        
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

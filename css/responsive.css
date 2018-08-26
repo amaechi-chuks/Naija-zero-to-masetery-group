@@ -60,3 +60,48 @@
     }
 
 }
+
+@media only screen and (min-width:1000px){
+    header .header-brand{
+        font-size: 40px;
+        position: absolute;
+        left: 10%;
+        top: 4.5%;
+    } 
+    nav ul{
+        position: absolute;
+        left: 55%;
+        top: 0%;
+        text-transform: capitalize;
+    }
+    
+    nav ul li{
+        padding: 50px 30px 10px 30px; 
+    }
+
+}
+@media only screen and (max-width:800px){
+    #TableTitle{
+        display: none;
+    }
+    #ResponsiveTable{
+        margin: auto;
+    }
+}
+@media only screen and (max-width:800px){
+    .picbase{
+        width: 100%;
+    }
+}
+
+/* -----modal ride_offer_form */
+
+@media only screen and (max-width:800px){
+    .modal-content{
+        width: 80%;
+    }
+}
+@keyframes modalopen{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}

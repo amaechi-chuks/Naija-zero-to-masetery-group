@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/responsive.css" />
+    <link rel="icon" href="img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Satisfy" rel="stylesheet">
+    <title>fantastic Rides - Requests</title>
+</head>
+
+<body>
+    <header>
+    <a href="offers_driver.html" class="header-brand"><span>fantastic</span>Rides</a>
+        <nav>
+            <ul>
+                <li><a href="offers_driver.html">Ride offers</a></li>
+                <li><a href="#"></a></li>
+                <li><a href="driver.html">Profile</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+
+<div id="sidebar">
+    <div class="toggle-button"onclick="toggleSidebar()">
+    <span></span>
+    <span></span>
+    <span></span>
+    </div>
+    <ul>
+        <li><a href="rides_response_driver.html">Notifications</a></li>
+        <li><a href="offers_driver.html">Availiable Rides</a></li>
+        <li><a href="requests.html">Requests</a></li>
+        <li><a href="rides_given.html">Rides Given</a></li>
+        <li><a href="rides_taken_driver.html">Rides taken</a></li>
+        <li><a href="index.html">Logout</a></li>
+        <li id="modalBtn" style="cursor:pointer;">Offer a ride</li>
+    </ul>
+    <!-- Modal form for creating ride offer -->
+    <div id="simpleModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header"><span class="closeBtn" style="cursor:pointer;">&times;</span>
+                    <h3>Create Ride Offer</h3>
+                </div>
+
+                <div class="modal-body">
+                    <center>
+                            <form action="" class="ride-offer-form">
+                                    <input type="text" placeholder="Destination"><br>
+                                    <input type="text" placeholder="My Loaction"><br>
+                                    <input type="text" placeholder="Departure Time"><br>
+                                    <button >Create</button>
+                            </form> 
+                    </center>
+                         
+                </div>
+
+                <div class="modal-footer">
+                        <center><span>Ride</span>MyWay</center>
+                    </div>
+                
+            </div>
+        </div>
+    <!-- endof modal form-->
+</div>
+
+    <main>
+            
+        <table id="ResponsiveTable">
+                
+            <h3 id="TableTitle">Requests</h3> 
+            <tbody style="margin-right:90px; " >
+                    <tr id="HeadRow">
+                            <td><!--ID--></td>
+                            <td>Passenger/s</td>
+                            <td>From:</td> 
+                            <td>To:</td>
+                            <td>Time</td>
+                            <td>Date</td> 
+                            <td><!--Accept--></td>
+                            <td><!--Reject--></td>                  
+                           
+                    </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Friday Ojo</td>
+                            <td>Lagos</td> 
+                            <td>Ikeja</td>
+                            <td>10:30</td>
+                            <td>13-Aug-2018</td>
+                            <td><button id="">Accept</button></td>
+                            <td><button style="background: #d32f2f;"id="">Reject</button></td>                
+                            
+                        </tr>
+                    <tr>
+                            <td>2</td>
+                            <td>Peter Ibeh</td>
+                            <td>Mangoro</td> 
+                            <td>Atiba</td>
+                            <td>10:30</td>
+                            <td>12-Aug-2018</td> 
+                            <td><button id="">Accept</button></td>
+                            <td><button style="background: #d32f2f;"id="">Reject</button></td>                   
+                            
+                    <tr>
+                            <td>3</td>
+                            <td>Chijioke Iheagaw</td>
+                            <td>Mangoro</td> 
+                            <td>Unoin Bank,offices</td>
+                            <td>10:30</td>
+                            <td>13-Jul-2018</td> 
+                            <td><button id="">Accept</button></td>
+                            <td><button style="background: #d32f2f;"id="">Reject</button></td>                   
+                            
+                        </tr>
+                        
+                        
+
+            </tbody>
+            
+        </table>
+        
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
