@@ -1,1 +1,0 @@
-# Naija-zero-to-masetery-group
