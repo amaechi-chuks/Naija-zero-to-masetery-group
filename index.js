@@ -1,8 +1,8 @@
-import express from "express";
-import bodyParser from "body-parser";
-import cors from "cors";
-import path from "path";
-import fs from "fs";
+const express = require("express");
+const bodyParser = require("body-parser");
+const cors = require("cors");
+const path = require("path");
+const fs = require("fs");
 
 
 
@@ -19,8 +19,9 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
 app.use(bodyParser.json({limit: '50mb'}))
 
-app.get("/user", (req, res) =>{
+app.get("/", (req, res) =>{
     res.status(200).send(user)
+    console.log(user)
 })
 app.listen(Port, ()=>{
     console.log(`app is listening at Port: 5000`)
