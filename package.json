@@ -1,0 +1,19 @@
+{
+  "name": "naija-zero-to-masetery-group",
+  "version": "1.0.0",
+  "description": "A carpooling App that can help users to get a ride, check avaliable rides and also check ride details",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amaechi-chuks/Naija-zero-to-masetery-group.git"
+  },
+  "author": "Nigeria-zero-master-group",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amaechi-chuks/Naija-zero-to-masetery-group/issues"
+  },
+  "homepage": "https://github.com/amaechi-chuks/Naija-zero-to-masetery-group#readme"
+}
