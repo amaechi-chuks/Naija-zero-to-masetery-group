@@ -1,13 +1,26 @@
-class Users {
-    constructor(first_name, last_name, email, password, id){
-        this.identtity = id
-        this.f_name = first_name;
-        this.l_name = last_name;
-        this.mail = email;
-        this.pass = password;
-       
-    }
-    
+
+ const database = {
+    user: [
+        {
+            id: 1,
+            firstName: "chuks",
+            lastName: "amaechi",
+            email: "amaechichuks2000@yahoo.com",
+            password: "secret",
+            confirmPassword: "secret",
+            phone: +23470878788,
+
+        },
+        {
+            id: 2,
+            firstName: "ibe",
+            lastName: "kingsley",
+            email: "ibe2000@gmail.com",
+            password: "oyi",
+            confirmPassword: "oyi",
+            phone: +234708786767,
+
+        }
+    ]
 }
-let user = new Users("chuks","amaechi","amaechichuks200@yahoo.com", "secret", 1);
-module.exports = user;
+module.exports = database.user;
